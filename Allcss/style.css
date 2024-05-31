@@ -1,4 +1,6 @@
-
+body{
+  background-color: #45505b;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -46,11 +48,12 @@
     /* about css */
     .about{
       padding-top: 75px;
+      color:#eaedef;
     }
     .about .content h3 {
       font-weight: 700;
       font-size: 26px;
-      color: #728394;
+      color: #040303;
     }
     
     .about .content ul {
@@ -71,7 +74,7 @@
     .about .content ul i {
       font-size: 16px;
       margin-right: 5px;
-      color: #0563bb;
+      color: #eaedef;
       line-height: 0;
     }
     
@@ -142,7 +145,7 @@
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #1f4061;
 }
 
 .contact .info p {
@@ -246,8 +249,8 @@
 
 /* footer */
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #243342;
+  color: #070809;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -277,7 +280,7 @@
   font-size: 18px;
   display: inline-block;
   background: #0563bb;
-  color: #fff;
+  color: #080808;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
